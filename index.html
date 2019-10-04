@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>yali</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #334;
+  color: white;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Logo circle */
+.header img {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* Main */
+.main {   
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* main with extra coloring */
+.mc {
+  background-color: #ccc;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 715px) {
+  .header {   
+    display: block;
+  }
+  .header img {
+    margin-right: 0px;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="avatar.png">
+  <div>
+    <h1>yali</h1>
+    <p>I'm *someone's* alias on tilde.black .</p>
+  </div>
+</div>
+
+<div class="main">
+  <h1>About Me</h1>
+  <p>
+    I joined tilde.black .
+    <br>
+    Why would I tell you anything else about me?
+    <br><br>
+    Just FYI, that's not my cat.
+  </p>
+</div>
+
+<div class="main mc">
+  <h1>What's This?</h1>
+  <p>
+    This is just my website on tilde.black so I will have <i>some</i>
+    web presence.
+  </p>
+</div>
+
+<div class="main">
+  <h1>Where to find me</h1>
+  <p>Since this is an alias, I do not have a large online presence</p>
+  <ul>
+    <li><a href="https://tilde.chat">IRC</a> (SSL)</li>
+    <li><a href="https://github.com/blyali">GitHub</a></li>
+    <li><a href="https://keybase.io/blyali">Keybase</a></li>
+    <li><a href="mailto:yali AT tilde DOT black">Email: yali AT tilde DOT black</a></li>
+  </ul>
+</div>
+
+<div class="footer">
+  <p>yali's tilde.black website. copyleft 2019 yali</p>
+</div>
+
+</body>
+</html>
